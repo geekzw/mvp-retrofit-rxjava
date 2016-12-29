@@ -7,9 +7,9 @@ import com.google.gson.annotations.SerializedName;
  * Created by gzw on 2016/12/28.
  */
 
-public class LogoRequest {
+public class UserRequest extends BaseRequest{
 
-    @SerializedName("start-image")
+    @SerializedName("user")
     @Expose
-    public String pix;
+    public String user;
 }

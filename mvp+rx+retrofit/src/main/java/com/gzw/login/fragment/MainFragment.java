@@ -11,7 +11,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.gzw.R;
-import com.gzw.login.entry.response.LogoResponse;
+import com.gzw.login.entry.response.GitHubUserInfo;
 
 /**
  * Created by gzw on 2016/12/28.
@@ -19,7 +19,6 @@ import com.gzw.login.entry.response.LogoResponse;
 
 public class MainFragment extends Fragment implements MainContract.View{
 
-    private ImageView mImageView;
     private TextView mText;
     private TextView mProgress;
 
@@ -34,9 +33,9 @@ public class MainFragment extends Fragment implements MainContract.View{
     }
 
     private void bindView(View view) {
-        mImageView = (ImageView) view.findViewById(R.id.image);
         mText = (TextView) view.findViewById(R.id.text);
         mProgress = (TextView) view.findViewById(R.id.progress);
+        presenter.getData();
     }
 
     @Override
@@ -45,10 +44,9 @@ public class MainFragment extends Fragment implements MainContract.View{
     }
 
     @Override
-    public void showMainView(LogoResponse response) {
+    public void showMainView(GitHubUserInfo response) {
         mProgress.setVisibility(View.GONE);
-        mImageView.setImageURI(Uri.parse(response.img_url));
-        mText.setText(response.info);
+        mText.setText(response.toString());
 
 
     }

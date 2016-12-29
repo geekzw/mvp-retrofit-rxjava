@@ -1,7 +1,10 @@
 package com.gzw.login.fragment;
 
 import com.gzw.login.data.HttpUtil;
-import com.gzw.login.entry.request.LogoRequest;
+import com.gzw.login.entry.request.UserRequest;
+import com.gzw.login.entry.response.GitHubUserInfo;
+
+import rx.functions.Action1;
 
 /**
  * Created by gzw on 2016/12/28.
@@ -16,13 +19,17 @@ public class MainPresenter implements MainContract.Presenter {
     @Override
     public void getData() {
         view.showProgress();
-        LogoRequest request = new LogoRequest();
-        request.pix = "1080*1776";
-        HttpUtil.getClient().getLogo(request)
+        UserRequest request = new UserRequest();
+        request.user = "geekzw";
+        HttpUtil.getClient().getUserInfo2("geekzw")
                 .compose(HttpUtil.applySchedulers())
-                .subscribe(response->{
-                  view.showMainView();
-        });
+                .subscribe(new Action1<Object>() {
+                    @Override
+                    public void call(Object response) {
+                        GitHubUserInfo response1 = (GitHubUserInfo) response;
+                        view.showMainView(response1);
+                    }
+                });
 
     }
 

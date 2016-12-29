@@ -24,5 +24,6 @@ public class LoginActivity extends AppCompatActivity {
         MainFragment mainFragment = new MainFragment();
         manager.beginTransaction().replace(R.id.main_content,mainFragment).commit();
         mPresenter = new MainPresenter(mainFragment);
+        mainFragment.setPresenter(mPresenter);
     }
 }

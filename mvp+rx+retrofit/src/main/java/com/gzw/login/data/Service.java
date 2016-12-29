@@ -2,11 +2,14 @@ package com.gzw.login.data;
 
 
 
-import com.gzw.login.entry.request.LogoRequest;
-import com.gzw.login.entry.response.LogoResponse;
+import com.gzw.login.entry.request.UserRequest;
+import com.gzw.login.entry.response.GitHubUserInfo;
 
 import retrofit2.http.Body;
+import retrofit2.http.GET;
 import retrofit2.http.POST;
+import retrofit2.http.Path;
+import retrofit2.http.Query;
 import rx.Observable;
 
 /**
@@ -15,6 +18,13 @@ import rx.Observable;
 
 public interface Service {
 
-    @POST("/api/4/start-image/1080*1776")
-    Observable<LogoResponse> getLogo(@Body LogoRequest request);
+    @POST("/users")
+    Observable<GitHubUserInfo> getUserInfo1(@Body UserRequest request);
+
+    @GET("/users/{user}")
+    Observable<GitHubUserInfo> getUserInfo2(@Path("user") String user);
+
+    @GET("/users")
+    Observable<GitHubUserInfo> getUserInfo3(@Query("user") String user);
+
 }
