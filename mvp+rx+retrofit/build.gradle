@@ -1,4 +1,5 @@
 apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
 
 android {
     compileSdkVersion 25
@@ -15,11 +16,22 @@ android {
 
     }
 
-buildTypes {
-        release {
-            minifyEnabled false
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+    buildTypes {
+            release {
+                minifyEnabled false
+                proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            }
         }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+    dataBinding {
+        enabled = true
     }
 }
 
@@ -28,13 +40,15 @@ dependencies {
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
-    compile 'com.android.support:appcompat-v7:25.0.1'
-    compile 'com.squareup.retrofit2:retrofit:2.1.0'
-    compile 'com.squareup.retrofit2:adapter-rxjava:2.1.0'
-    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
-    compile 'io.reactivex:rxjava:1.2.3'
-    compile 'io.reactivex:rxandroid:1.2.1'
-    compile 'me.tatarka:gradle-retrolambda:3.3.0-beta4'
+
+    compile rootProject.ext.dependencies.appcompat_v7
+    compile rootProject.ext.dependencies.retrofit
+    compile rootProject.ext.dependencies.rxJava
+    compile rootProject.ext.dependencies.gson
+    compile rootProject.ext.dependencies.rxAndroid
+    compile rootProject.ext.dependencies.retrofitAdapter
+    //rxjava2的callfactory需要自己定义
+    compile rootProject.ext.dependencies.rxjava2Adapter
 
     testCompile 'junit:junit:4.12'
 }

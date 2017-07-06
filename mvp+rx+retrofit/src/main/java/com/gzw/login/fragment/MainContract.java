@@ -1,7 +1,7 @@
 package com.gzw.login.fragment;
 
-import com.gzw.BasePresenter;
-import com.gzw.BaseView;
+import com.gzw.base.BasePresenter;
+import com.gzw.base.BaseView;
 import com.gzw.login.entry.response.GitHubUserInfo;
 
 /**

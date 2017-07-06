@@ -1,0 +1,48 @@
+def supportVersion = '25.0.1'
+def retrofitVersion = '2.1.0'
+def rxjavaVersion = '2.1.0'
+def rxBindingVersion = '2.0.0'
+def rxAndroidVersion = '2.0.1'
+def retrofitAdapter = '2.2.0'
+def okHttpVersion = '3.8.0'
+def okIOVersion = '1.13.0'
+def gsonVersion = '2.8.1'
+def rxjava2Adapter = '1.0.0'
+
+
+
+
+
+
+ext {
+
+    dependencies = [
+
+            //supprot包
+            support_v4        : "com.android.support:support-v4:${supportVersion}",
+            appcompat_v7      : "com.android.support:appcompat-v7:$supportVersion",
+            recyclerview      : "com.android.support:recyclerview-v7:${supportVersion}",
+            multidex          : "com.android.support:multidex:1.0.1",
+            //okhttp
+            okHttp            : "com.squareup.okhttp3:okhttp:$okHttpVersion",
+
+            //okio
+            ok_io             : "com.squareup.okio:okio:$okIOVersion",
+
+            //gson
+            gson              : "com.google.code.gson:gson:$gsonVersion",
+
+            //rxAndroid
+
+            rxAndroid         : "io.reactivex.rxjava2:rxandroid:$rxAndroidVersion",
+            rxJava            : "io.reactivex.rxjava2:rxjava:$rxjavaVersion",
+            rxBinding         : "com.jakewharton.rxbinding2:rxbinding:$rxBindingVersion",
+            //retrofit
+            retrofit          : "com.squareup.retrofit2:retrofit:$retrofitVersion",
+
+            retrofitAdapter   : "com.squareup.retrofit2:adapter-rxjava:$retrofitAdapter",
+
+            rxjava2Adapter    : "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:$rxjava2Adapter"
+
+    ]
+}
