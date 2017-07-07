@@ -21,7 +21,10 @@ public class MainPresenter implements MainContract.Presenter {
         request.user = "geekzw";
         HttpUtil.getClient().getUserInfo2("geekzw")
                 .compose(HttpUtil.applyShedulers())
-                .subscribe(response->view.showMainView(response));
+                .subscribe(response->{
+                    view.getModel().text.set(response.toString());
+                    view.hiddenProgress();
+                });
 
     }
 

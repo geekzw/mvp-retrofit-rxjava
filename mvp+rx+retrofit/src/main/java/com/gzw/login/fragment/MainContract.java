@@ -16,10 +16,8 @@ public interface MainContract {
 
     }
 
-    interface View extends BaseView<Presenter>{
+    interface View<T> extends BaseView<Presenter>{
 
-        void showProgress();
-        void showMainView(GitHubUserInfo response);
-
+        T getModel();
     }
 }

@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.1.0/2fdf84dedcaaeabb9d70cde9dbb8aad4eccb80a1/rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="2fdf84dedcaaeabb9d70cde9dbb8aad4eccb80a1">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/rxjava-2.1.0_dddb131f45615e23ddbeb7db5b8535d12fd6da9b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.databinding/adapters/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c56d29136c2257f63f08c29c4e739efb03b06c7d">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/com.android.databinding-adapters-1.2.1_e9cccffbecf0a1ca1d357c628c8ca7d6bcaed34a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.0.1_4594e800174a0dde1c16a742fe375b9c325f6e2f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/.gradle/caches/modules-2/files-2.1/com.jakewharton.retrofit/retrofit2-rxjava2-adapter/1.0.0/e117362a2103f8ec01091ebd2f40aca4e1ada599/retrofit2-rxjava2-adapter-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e117362a2103f8ec01091ebd2f40aca4e1ada599">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/retrofit2-rxjava2-adapter-1.0.0_c29826218e3d8d7aa1438223f5eddc8ba8ed2ac6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.0.1_4f94f4e567ef411f73b4df47f23d1104d0804f7b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.11.0/840897fcd7223a8143f1d9b6f69714e7be34fd50/okio-1.11.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="840897fcd7223a8143f1d9b6f69714e7be34fd50">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/okio-1.11.0_028908c113137df14901cbca7ee7a469a1e02143.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.0.1_0ff088adec050c060c84f83d47bd97f172b71d46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_684fae252e124d0038afd6da3cea3a6d20e659a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.0.1_e56c73bcfc8ccc83cc15c1229a9998f461f0e703.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.2.0/41e67dba73c3347e4503761642c39d0e06ca1f2/retrofit-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="041e67dba73c3347e4503761642c39d0e06ca1f2">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/retrofit-2.2.0_58c98654dbceaa1c784fd4a159813b6b4b039cba.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.0.1_71ee737f4d18c8262a24ff646c5289d504c9a0ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.6.0/69edde9fc4b01c9fd51d25b83428837478c27254/okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/okhttp-3.6.0_a42130618795de7c7e86157ab9a9c34be1a3dbfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.0.1_2e7a9685c337fab72a2b070764d07e21018bc7df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/io.reactivex.rxjava2/rxandroid/2.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4119ea97a7191ff9b8f33b534ea220448f62f491">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/io.reactivex.rxjava2-rxandroid-2.0.1_2e24b87d503cfa7dfd621816b0d73127e179647d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.0.1_4994586f2f65fe523589efe74d914c807e809009.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.1/2a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0/gson-2.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="02a8e0aa38a2e21cb39e2f5a7d6704cbdc941da0">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/gson-2.8.1_fcc79ebdda52767e255c59649c677ce6cfaced08.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_c4ea6eef5b6e8c4fec90e9e80e91ffd8a38c408a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/support-annotations-25.0.1_2bf076fe464e29e3bee00e4d13257f4bf768e216.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_2f488d7a98aa19426b30fd9e23653d652019a3ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_f2c97b1221c334a3fa3a0272bb098bae9ca26329.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/internal_impl-25.0.1_f0af344a4d231da9ebd302a161c816a79c8bb58b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.0.1_15598928d2229a1c6f0e3c057434b9dc2d4e9d31.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.0.1_11a9526affc0a15f4fa8f1b8f2fda421e150c081.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.0/14b8c877d98005ba3941c9257cfe09f6ed0e0d74/reactive-streams-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="14b8c877d98005ba3941c9257cfe09f6ed0e0d74">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/reactive-streams-1.0.0_1f2a4591f499e98b068b6ab2cd11fed4e630e448.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/exploded-aar/com.android.databinding/library/1.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="957dc30b1495f8689271e00d56ab09cc9192df02">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/com.android.databinding-library-1.2.1_e2d1e515bcc4ab1bde52ac92f6b0d7ab970012ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/.gradle/caches/modules-2/files-2.1/com.android.databinding/baseLibrary/2.2.2/5e227e2d794cf680dd34fb04dd564ce58d6c764d/baseLibrary-2.2.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5e227e2d794cf680dd34fb04dd564ce58d6c764d">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/baseLibrary-2.2.2_97c56ce6262faeb7095a3bf5e336a905afe1ddd1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.2.0/42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8/rxjava-1.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/rxjava-1.2.0_a39a5be1c387b7151f02c42aa698815861a5c391.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/gujian/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.2.0/d80514b6f44f0c4c6234e2d67fea783a25e77275/adapter-rxjava-2.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d80514b6f44f0c4c6234e2d67fea783a25e77275">
+        <dex dex="/Users/gujian/androidDemo/mvp+retrofit-rxjava/mvp+rx+retrofit/build/intermediates/pre-dexed/debug/adapter-rxjava-2.2.0_13a13398c2ff93d69b7e52ab473045f325c238cd.jar" />
+    </item>
+
+</items>

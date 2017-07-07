@@ -9,6 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.gzw.R;
+import com.gzw.databinding.BaseFragmentBinding;
+
 /**
  * Created by gujian
  * Time is 2017/7/6
@@ -18,6 +21,7 @@ import android.view.ViewGroup;
 public class BaseFragment<T extends ViewDataBinding> extends Fragment {
 
     private ViewDataBinding dataBinding;
+    private BaseFragmentBinding baseBinding;
 
     public T getDataBinding() {
         return (T)dataBinding;
@@ -30,12 +34,21 @@ public class BaseFragment<T extends ViewDataBinding> extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
-        dataBinding = DataBindingUtil.inflate(inflater,getLayoutResId(),container,true);
+        baseBinding = DataBindingUtil.inflate(inflater, R.layout.base_fragment,container,false);
+        dataBinding = DataBindingUtil.inflate(inflater, getLayoutResId(),baseBinding.content,false);
         afterCreateView(savedInstanceState);
         return dataBinding.getRoot();
     }
 
     protected void afterCreateView(Bundle savedInstanceState){
 
+    }
+
+    public final void showProgress(){
+        baseBinding.progress.setVisibility(View.VISIBLE);
+    }
+
+    public final void hiddenProgress(){
+        baseBinding.progress.setVisibility(View.GONE);
     }
 }
